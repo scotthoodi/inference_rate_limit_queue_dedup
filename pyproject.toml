@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "scotthoodi-infersre_jd200"
+name = "scotthoodi-inference_rate_limit_queue_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出推理服务 SRE 工程师·推理服务的限流与排队上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://scotthoodi.github.io"
-Repository = "https://github.com/scotthoodi/infersre_jd200"
-Issues = "https://github.com/scotthoodi/infersre_jd200/issues"
+Repository = "https://github.com/scotthoodi/inference_rate_limit_queue_dedup"
+Issues = "https://github.com/scotthoodi/inference_rate_limit_queue_dedup/issues"
 
 [project.scripts]
-infersre_jd200 = "infersre_jd200:main"
+inference_rate_limit_queue_dedup = "inference_rate_limit_queue_dedup:main"
 
 [tool.setuptools]
-py-modules = ["infersre_jd200"]
+py-modules = ["inference_rate_limit_queue_dedup"]
